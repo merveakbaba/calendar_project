@@ -39,7 +39,7 @@ def main():
                 print("Ollama'nın cevabı:", ollama_response)
 
         elif secim == '6':
-            print("Çıkılıyor...")
+            print("Çıkılıyor... ")
             break
 
         else:
