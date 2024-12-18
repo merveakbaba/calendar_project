@@ -63,4 +63,4 @@ class CalendarManager:
         if end_time:
             event['end']['dateTime'] = end_time
         updated_event = self.service.events().update(calendarId='primary', eventId=event_id, body=event).execute()
-        print('Randevu güncellendi:', updated_event.get('htmlLink'))
+        print('Randevu güncellendi: ', updated_event.get('htmlLink'))
